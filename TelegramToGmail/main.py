@@ -1,5 +1,5 @@
 #receive messages from telegram and forward to email
-#this will run in cron
+#this will run automatically as a webhook in telegram chatbot
 
 from flask import Flask, request, Response
 import requests
